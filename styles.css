@@ -1,0 +1,250 @@
+/* Elements */
+
+body {
+  text-align: center;
+  background-color: #283149;
+  background-image: url("https://i.gifer.com/zUL.gif");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #DBEDF3;
+  font-family: 'Audiowide', cursive;
+  text-shadow: 10px 0 #000;
+
+}
+
+footer {
+  color: white;
+  font-family: 'Quantico', sans-serif;
+}
+
+/* Buttons Bottom*/
+
+.z {
+  background-image: url("images/crash.png");
+  background-size: cover;
+}
+
+.x {
+  background-image: url("images/tom.png");
+  background-size: cover;
+}
+
+.c {
+  background-image: url("images/snare2.png");
+  background-size: cover;
+}
+
+.v {
+  background-image: url("images/snare1.png");
+  background-size: cover;
+}
+
+.b {
+  background-image: url("images/kick.png");
+  background-size: cover;
+}
+
+.n {
+  background-image: url("images/hihat.png");
+  background-size: cover;
+}
+
+.m {
+  background-image: url("images/skreep.png");
+  background-size: cover;
+}
+
+/* Buttons Middle*/
+
+.a {
+  background-image: url("images/phill1.png");
+  background-size: cover;
+}
+
+.s {
+  background-image: url("images/phill2.png");
+  background-size: cover;
+}
+
+.d {
+  background-image: url("images/phill3.png");
+  background-size: cover;
+}
+
+.f {
+  background-image: url("images/phill4.png");
+  background-size: cover;
+}
+
+.g {
+  background-image: url("images/phill5.png");
+  background-size: cover;
+}
+
+.h {
+  background-image: url("images/phill6.png");
+  background-size: cover;
+}
+
+.j {
+  background-image: url("images/phill7.png");
+  background-size: cover;
+}
+
+.k {
+  background-image: url("images/phill8.png");
+  background-size: cover;
+}
+
+.l {
+  background-image: url("images/phill9.png");
+  background-size: cover;
+}
+
+/* Buttons Top*/
+
+.q {
+  background-image: url("images/singer1.png");
+  background-size: cover;
+}
+
+.w {
+  background-image: url("images/singer2.png");
+  background-size: cover;
+}
+
+.e {
+  background-image: url("images/singer3.png");
+  background-size: cover;
+}
+
+.r {
+  background-image: url("images/singer4.png");
+  background-size: cover;
+}
+
+.t {
+  background-image: url("images/singer5.png");
+  background-size: cover;
+}
+
+.y {
+  background-image: url("images/singer6.png");
+  background-size: cover;
+}
+
+.u {
+  background-image: url("images/singer7.png");
+  background-size: cover;
+}
+
+.i {
+  background-image: url("images/singer8.png");
+  background-size: cover;
+}
+
+.o {
+  background-image: url("images/singer9.png");
+  background-size: cover;
+}
+
+.p {
+  background-image: url("images/singer10.png");
+  background-size: cover;
+}
+
+/* Classes */
+
+.set {
+  margin: 2% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 7px solid #404B69;
+  font-size: 2.2rem;
+  font-family: 'Quantico', sans-serif;
+  line-height: 3.4;
+  font-weight: 0;
+  animation: wheelHueColor 5s infinite;
+  text-shadow: 5px 0 #000;
+  border-radius: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  text-align: left;
+  margin: 10px;
+
+}
+
+.donate {
+  text-align: center;
+  font-size: 6rem;
+  position: relative;
+  animation: wheelHueColor 1s infinite;
+}
+
+.help-me{
+  font-family: 'Quantico', sans-serif;
+  color: white;
+
+}
+
+@keyframes wheelHueColor {
+  from, to {
+    color: rgb(236, 100, 75);
+  }
+
+  10% {
+    color: #c30202;
+  }
+
+  20% {
+    color: rgb(174, 168, 211);
+  }
+
+  30% {
+    color: rgb(89, 171, 227);
+  }
+
+  40% {
+    color: rgb(37, 116, 169);
+  }
+
+  50% {
+    color: rgb(3, 201, 169);
+  }
+
+  60% {
+    color: rgb(22, 160, 133);
+  }
+
+  70% {
+    color: white;
+  }
+
+  80% {
+    color: purple;
+  }
+
+  90% {
+    color: navy;
+  }
+}
